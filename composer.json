@@ -1,0 +1,29 @@
+{
+  "name": "Aeliot-Tm/mars-rover",
+  "license": "proprietary",
+  "type": "project",
+  "description": "Backend Interview Challenge: Mars Rover",
+  "autoload": {
+    "files": [
+      "app/AppKernel.php"
+    ],
+    "psr-4": {
+      "MarsRover\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MarsRover\\Test\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^7.2"
+  },
+  "require-dev": {
+    "dg/bypass-finals": "^1.0",
+    "phpunit/phpunit": "^6.5"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
