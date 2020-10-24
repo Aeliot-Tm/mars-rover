@@ -47,3 +47,11 @@ MMRMMRMRRM
 1 3 N
 5 1 E
 ```
+
+# Example of usage:
+
+Call console command to see how it works:
+```
+$ cat ./fixtures/default_input.txt | php ./index.php
+```
+ 
